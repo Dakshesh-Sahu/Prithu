@@ -9,7 +9,7 @@ const app = express();
 connectDB();
 const allowedOrigins = [
     'http://localhost:5173', // Your local dev environment
-    'https://prithu.netlify.app' // Your live Netlify URL
+    'https://prithu.vercel.app/' // Your live Netlify URL
 ];
 
 const corsOptions = {
